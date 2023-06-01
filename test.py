@@ -31,7 +31,7 @@ driver.find_element(By.CSS_SELECTOR, "button#giris.btn.btn-primary.btn-flat.btn-
 
 # Wait and go to the announcement page
 wait = WebDriverWait(driver, 5)
-announcement_link = "https://ilanbis.bik.gov.tr/Ilan/IndexYayin"
+announcement_link = "announcement_link"
 driver.get(announcement_link)
 
 # Wait and select the checkbox
