@@ -29,3 +29,5 @@ Update the `download_folder` variable to the correct path where downloaded files
 python test.py
 
 7. The automatic data scraping and email sending process will take place, and you will see the results in the console.
+
+**Note:** Please make sure to modify the URLs in the code according to the website you want to scrape data from. Replace the example URLs with the correct URLs.
