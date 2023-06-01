@@ -23,7 +23,7 @@ options.add_argument("--headless")  # Enables running in headless mode (optional
 # Configure the WebDriver
 driver = webdriver.Chrome(executable_path=driver_path, options=options)
 
-# Log in to the panel
+# Log in to the panel - Example URL and CSS Selector
 driver.get("https://ilanbis.bik.gov.tr")
 driver.find_element(By.CSS_SELECTOR, "input#UserName.form-control").send_keys(username)
 driver.find_element(By.CSS_SELECTOR, "input#Password.form-control").send_keys(password)
